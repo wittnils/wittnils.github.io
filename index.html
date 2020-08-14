@@ -1,4 +1,5 @@
 <html>
+<link rel="stylesheet" type="text/css" href="style.css" />
 <head>
     <style type = "text/css">
         body
@@ -22,11 +23,23 @@
         {
         background: #d0d0ff;
         }
-    </style>    
+    </style>  
 </head>
 <body>
 <div class="shaded">
 <h1>Martha die Maus</h1>
 </div>
+<form>
+    <label for="nume">Zähler: 
+        <input id="nume" type="number" min="-1000" max="1100" step="1">
+      </label>
+      <label for="denom">Nenner: 
+        <input id="denom" type="number" min="30" max="225" step="0.1" value="75">
+      </label>
+      <label>Bruch:
+        <output></output>
+      </label>
+      <button type="button" id="berechnen">Bruch Berechnen</button>
+</form>
 </body>
 </html>
