@@ -15,7 +15,9 @@ has the following roots: $$\pm \sqrt{2}, \pm\sqrt{3}$$. Therefore it splits into
 **Computing the galois group:** We know that since $$L/\mathbb{Q}$$ is galois we have that $$\#\operatorname{Gal}(L/K)=[L:\mathbb{Q}]$$. We have that 
 $$ [L:\mathbb{Q}]=[L:\mathbb{Q}(\sqrt{2})]\cdot [\mathbb{Q}(\sqrt{2}):\mathbb{Q}]$$
 the latter term evaluates to $$2$$. We will show that $$[L:\mathbb{Q}(\sqrt{2})]=2$$. Because $$X^2-3\in \mathbb{Q}[X]\subset \mathbb{Q}(\sqrt{2})[X]$$ we have that $$[L:\mathbb{Q}(\sqrt{2})]\le 2$$. Suppose it was $$1$$, then $$\sqrt{3}\in \mathbb{Q}(\sqrt{2})$$. Thus $$\exists a,b\in \mathbb{Q}$$ s.t. $$\sqrt{3}=a+b\sqrt{2}$$. Suppose $$a,b\neq 0$$, then we have that
+
 $$3 = a^2 + 2ab\sqrt{2} +2b^2 \Rightarrow \frac{3-a^2-b^2}{2ab} = \sqrt{2}  $$
+
 but the left term is in $$\mathbb{Q}$$ and the right term is not. A contradiction. Suppose $$b =0$$, then $$\sqrt{3}$$ would be rational, therefore $$b\neq 0$$. Now suppose $$a=0$$, then $$\sqrt{3}=b\sqrt{2}$$, which yields that 
 $$ \frac{\sqrt{2}}{\sqrt{3}}=b\in \mathbb{Q}$$ there exist $$u,v\in \mathbb{Z}$$ coprime with $$b=u/v$$. Then 
 
