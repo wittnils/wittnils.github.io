@@ -6,7 +6,7 @@ tag: Algebra
 ---
 Every finite extension is algebraic so we won't find any field extension of a perfect field with the above properties.
 Since finite fields and fields of characteristic $$0$$ are perfect, we will take the easiest example of an infinite field that
-has positive characteristic, namely $$\mathbb{F}_p(t)$$ the field of rational functions with coefficient sin $$\mahbb{F}_p$$. Let $$k=\mathbb{F}_p(t)$$. 
+has positive characteristic, namely $$\mathbb{F}_p(t)$$ the field of rational functions with coefficients in $$\mathbb{F}_p$$. Let $$k=\mathbb{F}_p(t)$$. 
 
 **Claim:** $$L=k[X]/(X^p-t)/k$$ is finite but not separable. 
 
