@@ -36,7 +36,7 @@ Since every element of $$\sigma\in\operatorname{Gal}(L/\mathbb{Q})$$ is uniquely
 
 since every element of $$\operatorname{Gal}(L/\mathbb{Q})$$ except for the identity on $$L$$ does not fix $$\sqrt{2}+\sqrt{3}$$ we know by the fundamental theorem of galois theory that $$\sqrt{2}+\sqrt{3}$$ is a primitve element of $$L/\mathbb{Q}$$. 
 
-We now want to show that $$\operatorname{Gal}(L/\mathbb{Q})\cong \mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z}$$. We know that the elements $$\mathbb{Z}/2\mathbb{Z} = \langle (1,0),(0,1)\rangle$$. Now we want to find a group-isomorphism $$\psi:\operatorname{Gal}(L/\mathbb{Q}) \to \mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z}$$. We set
+We now want to show that $$\operatorname{Gal}(L/\mathbb{Q})\cong \mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z}$$. We know that  $$\mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z} = \langle (1,0),(0,1)\rangle$$. Now we want to find a group-isomorphism $$\psi:\operatorname{Gal}(L/\mathbb{Q}) \to \mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z}$$. We set
 $$\psi(\sigma_2)=(1,0)$$ and $$\psi(\sigma_3)=(0,1)$$. Now $$\psi$$ is fully determined, because every element of the galois group can be written as a composition of $$\sigma_2,\sigma_3$$. There are 16 possibilites to multiply two elements of $$\operatorname{Gal}(L/\mathbb{Q})$$. 
 
 * Composition of any elemt of the galois group with itself yields the identity and adding two times the same element in $$\mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z}$$ results to zero. 
@@ -48,4 +48,4 @@ We have reduced to $$9$$ cases. Let's compute
 * $$\sigma_2\circ \sigma_4$$ sends $$\sqrt{2}\mapsto \sqrt{2}$$ and $$\sqrt{3}\mapsto -\sqrt{3}$$ on the other hand: $$(1,0)+(1,1)=(0,1)$$. 
 * $$\sigma_3\circ \sigma_4$$ send $$\sqrt{2}\mapsto -\sqrt{2}$$ and $$\sqrt{3}\mapsto \sqrt{3}$$ on the other hand: $$(0,1)+(1,1)=(1,0)$$.
 
-The other cases are just rearranging of the above cases. Therefore we have found a group isomorphism of $$\operatorname{Gal}(L/\mathbb{Q})\cong \mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z}$$. The group $$\mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z}$$ is obviously of order $$4$$ and abelian, but it is not cyclic since it does not contain an element of order $$4$$ it is the smallest abelian group which is not cyclic. 
+The other cases are just rearranging of the above cases. Therefore we have found a group isomorphism of $$\operatorname{Gal}(L/\mathbb{Q})\cong \mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z}$$. The group $$\mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z}$$ is obviously of order $$4$$ and abelian, but it is not cyclic since it does not contain an element of order $$4$$. It is the smallest abelian group which is not cyclic. 
