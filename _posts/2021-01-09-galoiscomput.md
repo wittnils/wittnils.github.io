@@ -26,3 +26,14 @@ $$ \frac{2}{3} = \frac{u^2}{v^2} \iff \frac{2}{3}- \frac{u^2}{v^2} = 0 \iff 2v^2
 this however can not be true because every prime factor of $$2v^2$$ except for two has even multiplicity but two can only occur an even number of times in the prime factorization of $$3u^2$$, leading to a contradiction. Therefore $$\sqrt{3}\notin \mathbb{Q}(\sqrt{2})$$ and we finally obtain 
 
 $$[L:\mathbb{Q}]=[L:\mathbb{Q}(\sqrt{2})]\cdot [\mathbb{Q}(\sqrt{2}):\mathbb{Q}]=4$$  
+
+Since every element of $$\sigma\in\operatorname{Gal}(L/\mathbb{Q})$$ is uniquely defined by its values on $$\sqrt{2}$$ and $$\sqrt{3}$$ and we know that $$\sigma$$ permutes the roots of $$X^2-3$$ and $$X^2-2$$ we can explicitely list all elements of the galois group of $$L/\mathbb{Q}$$
+
+* $$\sigma=\operatorname{id}_L$$ 
+* $$\sigma(\sqrt{2}) = -\sqrt{2}$$ and $$\sigma(\sqrt{3}) = \sqrt{3}$$
+* $$\sigma(\sqrt{2}) = \sqrt{2}$$ and $$\sigma(\sqrt{3}) = -\sqrt{3}$$
+* $$\sigma(\sqrt{2}) = -\sqrt{2}$$ and $$\sigma(\sqrt{3}) = -\sqrt{3}$$
+
+since every element of $$\operatorname{Gal}(L/\mathbb{Q})$$ except for the identity on $$L$$ does not fix $$\sqrt{2}+\sqrt{3}$$ we know by the fundamental theorem of galois theory that $$\sqrt{2}+\sqrt{3}$$ is a primitve element of $$L/\mathbb{Q}$$. 
+
+We know want to show that $$\operatorname{Gal}(L/\mathbb{Q})\cong \mathbb{Z}/2\mathbb{Z}\times \mathbb{Z}/2\mathbb{Z}$$. 
