@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ein wenig Mathematik
+title: A small blog about mathematics.
 description: >- # this means to ignore newlines until "baseurl:"
-  Hier werden einige Sachen vorgestellt, die ich schwer im Internet gut gefunden habe,
-  sich aber als nützlich herausgestellt habe. Manchmal vielleicht auch etwas abseits von Mathematik.
+  I collect some results / proofs here, which I did not find easily on the internet. 
+  Feel free to suggest changes. Apart from that I just have some fun doing math.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wittnils

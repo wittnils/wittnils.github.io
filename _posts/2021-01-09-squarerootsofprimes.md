@@ -4,7 +4,7 @@ title: "The square root of a prime number is irrational"
 date: 2021-01-08
 tag: Algebra
 ---
-Let $$p\in \mathbb{Z}$$ be a prime number. The $$\sqrt{p}$$ is irrational. 
+Let $$p\in \mathbb{Z}$$ be a prime number. Then $$\sqrt{p}$$ is irrational. 
 
 **Remark**: There are more elementary ways to show this, but this is very fun. 
 
