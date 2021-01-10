@@ -1,7 +1,7 @@
 ---
 layout : post
 title: "Example of a finite but not separable extension of fields."
-date: 2021-01-08
+date: 2021-01-10
 tag: Algebra
 ---
 Every finite extension is algebraic so we won't find any field extension of a perfect field with the above properties.
@@ -14,4 +14,4 @@ The polynomial $$f=X^p-t\in k[X]$$ is irreducible. This is true because $$f$$ is
 
 $$ k(\alpha) \cong k[X]/(X^p-t) $$
 
-and since the minimal polynomial of $$\alpha$$ is not separable we get that $$k(\alpha)/k$$ is not separable. Using the isomorphism in above we get the desired result.   
+and since the minimal polynomial of $$\alpha$$ is not separable we get that $$k(\alpha)/k$$ is not separable. Using the isomorphism above we get the desired result.   
